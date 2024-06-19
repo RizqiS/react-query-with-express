@@ -1,0 +1,15 @@
+GET http://localhost:8080/blog?search=Women
+###
+GET http://localhost:8080/blog/65e96384d15a2783b4500e93
+
+###
+GET http://localhost:8080/blog
+
+###
+PATCH  http://localhost:8080/blog/edit
+Content-Type: application/json
+
+{
+   "_id": "65ed60b5cacc4c8ea881ff97",
+   "title": "test updated 1"
+}
